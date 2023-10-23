@@ -1,0 +1,13 @@
+src/main/java/micronaut/api/AplicacoesApi.java
+src/main/java/micronaut/api/ProdutosApi.java
+src/main/java/micronaut/invoker/annotation/HardNullable.java
+src/main/java/micronaut/invoker/annotation/HardNullable.java
+src/main/java/micronaut/model/AplicacaoResponse.java
+src/main/java/micronaut/model/AplicacaoResponseAplicacoesInner.java
+src/main/java/micronaut/model/AplicacaoResponseList.java
+src/main/java/micronaut/model/ProdutoResponse.java
+src/main/java/micronaut/model/ProdutoResponseList.java
+src/main/resources/application.yml
+src/main/resources/application.yml
+src/main/resources/logback.xml
+src/main/resources/logback.xml

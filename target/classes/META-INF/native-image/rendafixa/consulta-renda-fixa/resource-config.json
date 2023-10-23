@@ -1,0 +1,51 @@
+{
+  "resources" : [ {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/micronaut.model.$AplicacaoResponseList$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\Qlogback.xml\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/rendafixa.model.$AplicacoesDBModel$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/spring-configuration-metadata.json\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/micronaut.model.$AplicacaoResponse$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/rendafixa.configuration.$ProdutosDynamoConfiguration$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/rendafixa.model.$ProdutosDBModel$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.controller.$AplicacoesApiController$Definition$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.controller.$AplicacoesApiController$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\Qapplication.yml\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.controller.$ProdutosApiController$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.repository.aplicacao.$AplicacoesDynamoRepository$Definition$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/micronaut.model.$ProdutoResponseList$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/micronaut.model.$AplicacaoResponseAplicacoesInner$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.service.$AplicacoesService$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\Qapplication.properties\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/micronaut.model.$ProdutoResponse$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.configuration.$AplicacoesDynamoConfiguration$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.configuration.$ProdutosDynamoConfiguration$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\Qswagger.yaml\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/rendafixa.configuration.$AplicacoesDynamoConfiguration$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.repository.produtos.$ProdutosDynamoRepository$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.repository.aplicacao.$AplicacoesDynamoRepository$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/rendafixa.service.$ProdutosService$Definition$Reference\\E"
+  } ]
+}

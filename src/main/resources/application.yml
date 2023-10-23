@@ -1,0 +1,29 @@
+micronaut:
+  application:
+    name: transaciona-renda-fixa
+    server:
+      port: 8081
+  endpoints:
+    routes:
+      sensitive: false
+  netty:
+    default:
+      allocator:
+        max-order: 100
+  http:
+    client:
+      connect-timeout: 20s
+      num-of-threads: 200
+      pool:
+        enabled: true
+        max-connections: 200
+
+io:
+  netty:
+    event-loop-threads: 200
+
+dynamodb:
+  aplicacoes:
+    table-name: 'APLICACOES_RENDA_FIXA'
+  produtos:
+    table-name: 'PRODUTOS_RENDA_FIXA'

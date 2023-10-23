@@ -1,0 +1,102 @@
+openapi: 3.0.3
+info:
+  title: API Transaciona Renda Fixa
+  description: Uma API para realizar aplicações e alterar produtos Renda Fixa.
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8081/transaciona-renda-fixa/api
+
+tags:
+  - name: Aplicacoes
+    description: Aplicações de Renda Fixa
+  - name: Produtos
+    description: Produtos de Renda Fixa
+
+paths:
+  /aplicacoes/{contaCorrente}:
+    get:
+      summary: Lista de Aplicações
+      description: Retorna uma lista de aplicações.
+      operationId: listarAplicacoes
+      tags:
+        - Aplicacoes
+      parameters:
+        - in: path
+          name: contaCorrente
+          description: Conta Corrente do cliente
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AplicacaoResponseList"
+        400:
+          description: Solicitação inválida
+  /produtos:
+    get:
+      summary: Lista de Produtos
+      description: Retorna uma lista de todos os produtos.
+      operationId: listarProdutos
+      tags:
+        - Produtos
+      responses:
+        200:
+          description: Sucesso
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProdutoResponseList"
+        400:
+          description: Solicitação inválida
+components:
+  schemas:
+    AplicacaoResponse:
+      type: object
+      properties:
+        codigoProduto:
+          type: string
+          description: O código do produto aplicado.
+        aplicacoes:
+          type: array
+          items:
+            type: object
+            properties:
+              valor:
+                type: number
+                format: double
+                description: O valor da aplicação.
+              data:
+                type: string
+                format: date
+                description: A data da aplicação.
+    AplicacaoResponseList:
+      type: object
+      properties:
+        list:
+          type: array
+          items:
+            $ref: "#/components/schemas/AplicacaoResponse"
+    ProdutoResponse:
+      type: object
+      properties:
+        codigoProduto:
+          type: string
+          description: O código do produto aplicado.
+        nomeProduto:
+          type: string
+          description: O nome do produto aplicado.
+        tipoProduto:
+          type: string
+          description: O tipo do produto aplicado.
+    ProdutoResponseList:
+      type: object
+      properties:
+        list:
+          type: array
+          items:
+            $ref: "#/components/schemas/ProdutoResponse"
